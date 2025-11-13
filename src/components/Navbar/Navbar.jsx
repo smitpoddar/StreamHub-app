@@ -42,7 +42,7 @@ const Navbar = () => {
           <img src={profile_img} alt="" className="profile" />
           <img src={caret_icon} alt="" />
           <p className="signout" onClick={()=>{
-            navigate("/")
+            navigate("/login")
           }}>Sign out</p>
         </div>
       </div>
