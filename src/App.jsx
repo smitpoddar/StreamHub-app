@@ -9,8 +9,8 @@ function App(){
     <div>
     <ToastContainer theme="dark"/>
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/player/:id" element={<Player />} />
       </Routes>
     </div>
