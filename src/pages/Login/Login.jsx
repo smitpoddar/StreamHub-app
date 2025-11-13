@@ -37,7 +37,7 @@ const Login = () => {
           email,
           password
         );
-        navigate("/home");
+        navigate("/");
         setloading(false)
       } else {
         setloading(false);
