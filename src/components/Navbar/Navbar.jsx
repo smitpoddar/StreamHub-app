@@ -24,7 +24,9 @@ const Navbar = () => {
   return (
     <div ref={navRef} className="navbar">
       <div className="navbar-left">
-        <img src={logo} alt="" />
+        <img src={logo} alt="" onClick={()=>{
+            navigate("/")
+          }} />
         <ul>
           <li>Home</li>
           <li>Tv Show</li>
