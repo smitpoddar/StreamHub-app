@@ -20,8 +20,11 @@
 
 .navbar-left img {
   width: 110px;
+  
 }
-
+.navbar-left img:hover{
+  cursor: pointer;
+}
 .navbar-left ul {
   display: flex;
   list-style: none;
