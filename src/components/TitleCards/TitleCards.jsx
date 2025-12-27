@@ -11,7 +11,7 @@ const TitleCards = ({ title, category }) => {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization: `Bearer ${process.env.REACT_APP_TMDB_KEY}`,
+      Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkODcxMTExMTI4ZWI2ZmZhYTYzZDMxNjA1YzA4YmQ4MiIsIm5iZiI6MTc2MDYyMjIyNC4yMDk5OTk4LCJzdWIiOiI2OGYwZjY5MDNmODQ4MTEyYTVjMjNlYWYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.q9BwDPLz-_LbwDRmp371elL8rxKqzMu_nuuuysBO-3Q"
     },
   };
 
